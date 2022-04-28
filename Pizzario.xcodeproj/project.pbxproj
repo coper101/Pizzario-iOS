@@ -39,7 +39,7 @@
 		27F96A86281648DB00092797 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		27F96A8928164CD100092797 /* Helvetica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Regular.ttf"; sourceTree = "<group>"; };
 		27F96A8A28164CD100092797 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica-Bold.ttf"; sourceTree = "<group>"; };
-		27F96A8D28164CFB00092797 /* Sample-Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sample-Apps-Info.plist"; sourceTree = SOURCE_ROOT; };
+		27F96A8D28164CFB00092797 /* Pizzario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pizzario-Info.plist"; sourceTree = SOURCE_ROOT; };
 		27F96A8E2816506300092797 /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
 		27F96A902816563D00092797 /* PizzarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzarioApp.swift; sourceTree = "<group>"; };
 		27F96A922816613400092797 /* SeatAvailabilityLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatAvailabilityLevelView.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		27F96A692816404500092797 = {
 			isa = PBXGroup;
 			children = (
-				27F96A742816404500092797 /* Sample Apps */,
+				27F96A742816404500092797 /* Pizzario */,
 				27F96A732816404500092797 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,20 +99,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27F96A742816404500092797 /* Sample Apps */ = {
+		27F96A742816404500092797 /* Pizzario */ = {
 			isa = PBXGroup;
 			children = (
-				27F96A8D28164CFB00092797 /* Sample-Apps-Info.plist */,
+				27F96A792816404B00092797 /* Assets.xcassets */,
+				27F96A8D28164CFB00092797 /* Pizzario-Info.plist */,
 				27F96A752816404500092797 /* Pizzario.swift */,
 				27A7F477281ABA18008A54C0 /* Style */,
 				27F96A85281642E900092797 /* Views */,
 				27A7F476281A8455008A54C0 /* Model */,
 				27B5DE79281818B5000B1600 /* Test Data */,
 				27F96A8828164CC700092797 /* Fonts */,
-				27F96A792816404B00092797 /* Assets.xcassets */,
 				27F96A7B2816404B00092797 /* Preview Content */,
 			);
-			path = "Sample Apps";
+			path = Pizzario;
 			sourceTree = "<group>";
 		};
 		27F96A7B2816404B00092797 /* Preview Content */ = {
@@ -362,11 +362,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sample Apps/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pizzario/Preview Content\"";
 				DEVELOPMENT_TEAM = KB9D3Y7M29;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sample-Apps-Info.plist";
+				INFOPLIST_FILE = "Pizzario-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pizzario;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -383,7 +383,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -394,11 +394,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sample Apps/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pizzario/Preview Content\"";
 				DEVELOPMENT_TEAM = KB9D3Y7M29;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sample-Apps-Info.plist";
+				INFOPLIST_FILE = "Pizzario-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pizzario;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -415,7 +415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
